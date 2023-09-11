@@ -2,4 +2,4 @@ print("Shubham Rajendra Jadhav")
 
 a = 1 + 3
 
-print(a)
+print(a**8)

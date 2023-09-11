@@ -1,4 +1,5 @@
 /.idea/.gitignore
+.DS_Store
 *_Sol.py
 /.idea
 /Lecture_07/Lecture Code/Torch_text.txt
