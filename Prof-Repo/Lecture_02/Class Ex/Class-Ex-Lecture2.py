@@ -7,7 +7,19 @@
 # Explain the result of plot in a couple of sentences.
 # ----------------------------------------------------------------
 print(20 * '-' + 'Begin Q1' + 20 * '-')
+import nltk
+from nltk.book import text2
+import matplotlib.pyplot as plt
 
+# Load the text of Sense and Sensibility from NLTK's book corpus
+nltk.download('gutenberg')
+sense_sensibility = nltk.corpus.gutenberg.words('austen-sense.txt')
+
+# Create a dispersion plot for the four main protagonists
+plt.figure(figsize=(12, 6))
+text2.dispersion_plot(["Elinor", "Marianne", "Edward", "Willoughby"])
+plt.title("Dispersion Plot of Protagonists in Sense and Sensibility")
+plt.show()
 print(20 * '-' + 'End Q1' + 20 * '-')
 
 # =================================================================

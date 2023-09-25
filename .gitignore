@@ -1,4 +1,5 @@
 /.idea/.gitignore
+/HW/Data/
 .DS_Store
 *_Sol.py
 /.idea
